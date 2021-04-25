@@ -76,7 +76,7 @@ function App() {
 
   const clear = () => {
     sPrice.current.value = bPrice.current.value = sQuantity.current.value = bQuantity.current.value = null;
-    changResult("");
+    changResult(0);
   }
 
   function portfolioSection() {
