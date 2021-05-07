@@ -106,6 +106,7 @@ function App() {
         </div>
         <label style={{ color: !_switchState ? "grey" : 'rgb(58, 135, 236)' }}>Short Sell</label>
         {fullBody()}
+
         <br />
         <center>
           <button type="submit" class="button button--pipaluk button--text-thick" >Calculate</button>
